@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Cpu, ExternalLink, Github, Sparkles, X } from "lucide-react";
 import { portfolioData } from "@/data/portfolioData";
 import { Reveal, Section } from "./Section";
@@ -174,14 +175,17 @@ function ProjectCard({ project, delay }: { project: Project; delay: number }) {
           </a>
         </div>
       </div>
-      {lightbox !== null && project.images && (
-        <Lightbox
-          images={project.images}
-          index={lightbox}
-          onClose={() => setLightbox(null)}
-          onSelect={setLightbox}
-        />
-      )}
+      {lightbox !== null &&
+        project.images &&
+        createPortal(
+          <Lightbox
+            images={project.images}
+            index={lightbox}
+            onClose={() => setLightbox(null)}
+            onSelect={setLightbox}
+          />,
+          document.body,
+        )}
     </Reveal>
   );
 }

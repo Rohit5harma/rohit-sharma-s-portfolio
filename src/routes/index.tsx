@@ -14,7 +14,7 @@ import { Footer } from "@/components/portfolio/Footer";
 
 const title = "Rohit Sharma | Full Stack Developer";
 const description =
-  "Rohit Sharma is a Full Stack Developer from Agra, India, building React, Node.js and Python projects — portfolio, experience, skills and contact.";
+  "Rohit Sharma is a Full Stack Developer focused on building practical web applications and solving real-world problems.";
 
 export const Route = createFileRoute("/")({
   component: Index,

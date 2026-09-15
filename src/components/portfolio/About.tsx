@@ -16,9 +16,10 @@ export function About() {
             <h3 className="truncate text-lg font-semibold">Educational Background</h3>
           </div>
           <p className="mt-5 text-sm leading-relaxed text-muted-foreground">
-            I&apos;m currently in my {edu.status} of {edu.degree} at {edu.institution}, affiliated
-            with {edu.affiliation} ({edu.period}). My coursework in data structures, algorithms,
-            databases and web technologies is the foundation I build real projects on.
+            I&apos;m Rohit Sharma, a {edu.degree} student at {edu.institution}, affiliated with{" "}
+            {edu.affiliation}. I&apos;m currently in my {edu.status} ({edu.period}), and I&apos;ve
+            gained hands-on industry experience through my internship at 509 Army Base Workshop,
+            Agra Cantt.
           </p>
         </Reveal>
 

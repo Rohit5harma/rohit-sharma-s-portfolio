@@ -1,4 +1,7 @@
 import profileAsset from "@/assets/rohit-sharma.png.asset.json";
+import roverFront from "@/assets/rover-front.jpeg.asset.json";
+import roverSide from "@/assets/rover-side.jpeg.asset.json";
+import roverTop from "@/assets/rover-top.jpeg.asset.json";
 
 export const portfolioData = {
   name: "Rohit Sharma",
@@ -59,6 +62,11 @@ export const portfolioData = {
       github: "#",
       demo: "#",
       featured: true,
+      images: [
+        { src: roverFront.url, alt: "Voice Control Rover — front view with camera" },
+        { src: roverSide.url, alt: "Voice Control Rover — side view with circuitry and heatsinks" },
+        { src: roverTop.url, alt: "Voice Control Rover — top-down wiring layout" },
+      ],
     },
     {
       name: "AI Job Finder",

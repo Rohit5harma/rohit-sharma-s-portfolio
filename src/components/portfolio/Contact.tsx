@@ -106,8 +106,8 @@ export function Contact() {
             </button>
             {sent && (
               <p className="flex items-center gap-2 rounded-xl border border-primary/40 bg-primary/10 px-4 py-3 text-sm text-primary">
-                <CheckCircle2 className="h-4 w-4 shrink-0" /> Thanks for reaching out — your message
-                has been received.
+                <CheckCircle2 className="h-4 w-4 shrink-0" /> Thanks! Your message has been
+                prepared.
               </p>
             )}
           </form>

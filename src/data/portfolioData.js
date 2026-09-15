@@ -7,9 +7,9 @@ export const portfolioData = {
   email: "kaushikrohit6396@gmail.com",
   phone: "9058029848",
   profileImage: profileAsset.url,
-  resumeUrl: "#",
+  resumeUrl: "/resume/Rohit_Sharma_Resume.pdf",
   tagline:
-    "I build fast, reliable web products end to end — from clean React interfaces to well-structured APIs and databases.",
+    "I build practical, user-focused applications with modern web technologies and enjoy turning ideas into working products.",
   socialLinks: [
     { label: "GitHub", url: "https://github.com/Rohit5harma", icon: "github" },
     {
@@ -21,12 +21,12 @@ export const portfolioData = {
     { label: "Email", url: "mailto:kaushikrohit6396@gmail.com", icon: "mail" },
   ],
   focusAreas: [
-    "Full Stack Web Development",
+    "Full Stack Development",
     "React.js",
-    "Node.js & Express.js",
-    "REST APIs",
-    "MongoDB & SQL",
-    "Data Structures & Algorithms",
+    "Backend Development",
+    "Python",
+    "Problem Solving",
+    "Building Practical Applications",
   ],
   skills: [
     { category: "Programming Languages", items: ["C++", "Python"] },
@@ -42,11 +42,11 @@ export const portfolioData = {
       location: "Agra Cantt",
       period: "June 2026 – Present",
       points: [
-        "Working on real-world software development tasks in a professional defence workshop environment.",
-        "Building and improving internal web modules using modern full stack technologies.",
-        "Collaborating with senior engineers to gather requirements and translate them into working features.",
-        "Writing clean, maintainable code and testing functionality before deployment.",
-        "Gaining hands-on exposure to structured software development workflows and documentation.",
+        "Worked on a Voice Control Rover project, contributing to voice-command-based control functionality.",
+        "Assisted in day-to-day technical and operational activities within a defense-sector engineering environment.",
+        "Gained exposure to professional work environments and industry-standard practices.",
+        "Improved communication, teamwork and problem-solving skills through cross-functional collaboration.",
+        "Learned organizational workflow and technical documentation processes.",
       ],
     },
   ],
@@ -94,7 +94,7 @@ export const portfolioData = {
     {
       title: "Active Competitive Programmer",
       description:
-        "Regularly practising data structures and algorithms challenges to sharpen problem-solving speed and accuracy.",
+        "Regularly practising coding and problem solving on competitive programming platforms. The link below opens the LeetCode practice platform.",
       link: { label: "View LeetCode", url: "https://leetcode.com/problemset/" },
     },
   ],

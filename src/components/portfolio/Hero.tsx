@@ -53,6 +53,7 @@ export function Hero() {
             </button>
             <a
               href={portfolioData.resumeUrl}
+              download="Rohit_Sharma_Resume.pdf"
               className="glass-panel inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition-colors duration-300 hover:border-primary/50"
             >
               <Download className="h-4 w-4" /> Download Resume

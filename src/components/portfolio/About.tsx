@@ -3,7 +3,7 @@ import { portfolioData } from "@/data/portfolioData";
 import { Reveal, Section } from "./Section";
 
 export function About() {
-  const edu = portfolioData.education[0];
+  const edu = portfolioData.education[0]!;
 
   return (
     <Section id="about" eyebrow="About" title="A developer who ships end to end">

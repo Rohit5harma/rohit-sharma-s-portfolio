@@ -1,7 +1,3 @@
-import profileAsset from "@/assets/rohit-sharma.png.asset.json";
-import roverFront from "@/assets/rover-front.jpeg.asset.json";
-import roverSide from "@/assets/rover-side.jpeg.asset.json";
-import roverTop from "@/assets/rover-top.jpeg.asset.json";
 
 export const portfolioData = {
   name: "Rohit Sharma",
@@ -9,7 +5,7 @@ export const portfolioData = {
   location: "Agra, Uttar Pradesh, India",
   email: "kaushikrohit6396@gmail.com",
   phone: "9058029848",
-  profileImage: profileAsset.url,
+  profileImage: "/assets/rohit-sharma.png",
   resumeUrl: "/resume/Rohit_Sharma_Resume.pdf",
   tagline:
     "I build practical, user-focused applications with modern web technologies and enjoy turning ideas into working products.",
@@ -63,9 +59,12 @@ export const portfolioData = {
       demo: "#",
       featured: true,
       images: [
-        { src: roverFront.url, alt: "Voice Control Rover — front view with camera" },
-        { src: roverSide.url, alt: "Voice Control Rover — side view with circuitry and heatsinks" },
-        { src: roverTop.url, alt: "Voice Control Rover — top-down wiring layout" },
+        { src: "/assets/rover-front.jpeg", alt: "Voice Control Rover — front view with camera" },
+        {
+          src: "/assets/rover-side.jpeg",
+          alt: "Voice Control Rover — side view with circuitry and heatsinks",
+        },
+        { src: "/assets/rover-top.jpeg", alt: "Voice Control Rover — top-down wiring layout" },
       ],
     },
     {

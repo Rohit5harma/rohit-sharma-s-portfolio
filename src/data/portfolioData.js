@@ -59,9 +59,12 @@ export const portfolioData = {
       demo: "#",
       featured: true,
       images: [
-        { src: roverFront.url, alt: "Voice Control Rover — front view with camera" },
-        { src: roverSide.url, alt: "Voice Control Rover — side view with circuitry and heatsinks" },
-        { src: roverTop.url, alt: "Voice Control Rover — top-down wiring layout" },
+        { src: "/assets/rover-front.jpeg", alt: "Voice Control Rover — front view with camera" },
+        {
+          src: "/assets/rover-side.jpeg",
+          alt: "Voice Control Rover — side view with circuitry and heatsinks",
+        },
+        { src: "/assets/rover-top.jpeg", alt: "Voice Control Rover — top-down wiring layout" },
       ],
     },
     {

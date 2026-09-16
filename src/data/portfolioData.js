@@ -31,7 +31,7 @@ export const portfolioData = {
     { category: "Programming Languages", items: ["C++", "Python"] },
     { category: "Frontend", items: ["HTML", "JavaScript", "Tailwind CSS", "React.js"] },
     { category: "Backend", items: ["Node.js", "Express.js", "Django", "REST APIs"] },
-    { category: "Database", items: ["MongoDB", "SQL"] },
+    { category: "Database", items: ["SQL"] },
     { category: "Tools", items: ["Git", "GitHub", "VS Code"] },
   ],
   experience: [

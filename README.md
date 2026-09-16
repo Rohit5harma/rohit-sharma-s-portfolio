@@ -29,7 +29,7 @@ Build a premium, modern, unique developer portfolio website for Rohit Sharma fol
 - Navbar: Sticky, backdrop blur, "RS" monogram logo + Rohit Sharma, nav links with smooth scrolling, "Download Resume" button, mobile menu.
 - Hero: "Open to Opportunities" badge, "Hi, I'm Rohit Sharma.", "Full Stack Developer" title, supporting text, CTA buttons ("View My Work", "Download Resume"), social links, profile image on right.
 - About: Educational background (B.Tech CSE at Raja Balwant Singh Engineering Technical Campus, Agra, AKTU Lucknow, 2023-2027, 4th Year), real-world internship at 509 Army Base Workshop, and "Currently Focused On" chips.
-- Skills: Categorized cards (Programming Languages: C++, Python; Frontend: HTML, JavaScript, Tailwind CSS, React.js; Backend: Node.js, Express.js, Django, REST APIs; Database: MongoDB, SQL; Tools: Git, GitHub, VS Code). No fake percentages.
+- Skills: Categorized cards (Programming Languages: C++, Python; Frontend: HTML, JavaScript, Tailwind CSS, React.js; Backend: Node.js, Express.js, Django, REST APIs; Database: SQL; Tools: Git, GitHub, VS Code). No fake percentages.
 - Experience: Vertical timeline for Software Engineer Intern at 509 Army Base Workshop, Agra Cantt (June 2026 – Present) with the exact bullet points provided.
 - Projects: Featured cards for "Voice Control Rover" (Python, Voice Recognition, Hardware Control) and "AI Job Finder" (Python, JavaScript, HTML, CSS, AI-based Matching). Links set to "#".
 - Education: Raja Balwant Singh Engineering Technical Campus, Agra, B.Tech CSE (2023–2027), 4th Year.

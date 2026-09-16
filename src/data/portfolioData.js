@@ -1,7 +1,3 @@
-import profileAsset from "@/assets/rohit-sharma.png.asset.json";
-import roverFront from "@/assets/rover-front.jpeg.asset.json";
-import roverSide from "@/assets/rover-side.jpeg.asset.json";
-import roverTop from "@/assets/rover-top.jpeg.asset.json";
 
 export const portfolioData = {
   name: "Rohit Sharma",

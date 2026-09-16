@@ -5,7 +5,7 @@ export const portfolioData = {
   location: "Agra, Uttar Pradesh, India",
   email: "kaushikrohit6396@gmail.com",
   phone: "9058029848",
-  profileImage: profileAsset.url,
+  profileImage: "/assets/rohit-sharma.png",
   resumeUrl: "/resume/Rohit_Sharma_Resume.pdf",
   tagline:
     "I build practical, user-focused applications with modern web technologies and enjoy turning ideas into working products.",

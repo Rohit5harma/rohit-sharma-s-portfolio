@@ -68,10 +68,10 @@ export const portfolioData = {
       ],
     },
     {
-      name: "AI Job Finder",
+      name: "AI Resume Analyzer",
       description:
-        "An AI-assisted job discovery tool that matches candidate profiles and skills with relevant job listings, presenting ranked results through a clean, responsive interface.",
-      tech: ["Python", "JavaScript", "HTML", "CSS", "AI-based Matching"],
+        "A full-stack tool that analyzes uploaded resumes, scores them against ATS criteria, identifies missing skills, and suggests improvements through a clean, responsive interface.",
+      tech: ["React.js", "Python", "Django", "MongoDB", "AI-based Analysis"],
       github: "#",
       demo: "#",
       featured: true,

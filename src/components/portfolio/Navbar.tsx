@@ -62,7 +62,8 @@ export function Navbar() {
           ))}
           <a
             href={portfolioData.resumeUrl}
-            download="Rohit_Sharma_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-2 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-accent px-4 py-2 text-sm font-semibold text-primary-foreground transition-transform duration-300 hover:-translate-y-0.5"
           >
             <Download className="h-4 w-4" /> Download Resume
@@ -93,7 +94,8 @@ export function Navbar() {
             ))}
             <a
               href={portfolioData.resumeUrl}
-              download="Rohit_Sharma_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-3 inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-primary to-accent px-4 py-3 text-sm font-semibold text-primary-foreground"
             >
               <Download className="h-4 w-4" /> Download Resume
